@@ -23,14 +23,14 @@
     list-style: none;
     align-items: center;
     flex-wrap: wrap;
-    height: 20px;
+    height: 1%;
     justify-content: space-around;
     align-content: center;
     background-color: #457947; 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #ffffff;
-    padding: 28px;
     margin: auto;
+    
 
 }
 .navegacion h1{
@@ -41,6 +41,7 @@
     height: 120px;
     justify-content: space-around;
     font-size: 40px;
+    width: 100%;
 }
 form{
     margin: px;
@@ -71,7 +72,7 @@ a{
 .div1{
     display: flex;
     background-size: cover;
-    width: 180vh;
+    width: 120vh;
     height: 100%;
     margin: auto;
     background-color: black;
@@ -97,6 +98,7 @@ a{
     display: flex;
     justify-content: space-evenly;
     padding: 7.5px;
+    height: auto;
 }
 
 .fotos{
@@ -130,7 +132,7 @@ a{
 
 
 @media (max-width:550px){
-    .nav h1{
+    .navegacion h1{
         background-color: #524f4f; 
         color: #ffffff;
         width: 100vw;
@@ -139,22 +141,24 @@ a{
     }
 }
 @media (max-width:550px){
-    .nav ul{
+    .navegacion ul{
         background-color: #0d0e0d;
-        text-align: center;
-    }
+        text-align: center;    }
 }
 @media (max-width:550px){
     .main div{
         background-color: #696969; 
-        padding: 45px;
+        padding: 4px;
         margin: -20px;
+        width: 100%;
     }
 }
 @media (max-width:550px){
     .footer{
         background-color: #0d0e0d;
         text-align: center;
+        padding: auto;
+        
     }
 }
 
