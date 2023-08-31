@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family:signlode;
+    src: url('../recursos/font/Signlode.ttf');
+}
+.navegacion h1{
+    display: flex;
+    color: #000000;
+    align-items: center;
+    height: 60px;
+    justify-content: space-around;
+    font-size: 20px;
+    font-family: signlode, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto
+}
+
+.navegacion ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 20px;
+    justify-content: space-around;
+    align-content: center;
+    background-color: #457947; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffffff;
+    padding: 28px;
+    margin: auto;
+
+}
+.navegacion h1{
+    display: flex;
+    color: #457947;
+    background-color: #000000;
+    align-items: center;
+    height: 120px;
+    justify-content: space-around;
+    font-size: 40px;
+}
+form{
+    margin: px;
+    padding: 180px;
+    color: white;  
+    background-color: black;
+    font-size: 20px;
+    
+}
+.section{
+    background-color: rgb(95, 94, 94);
+    color: white;
+}
+section p{
+    font-family:cursive;
+    font-size: 20px;
+    padding: 45px;
+    text-align:center;
+    background-color: black;
+    
+}
+
+a{
+    color: #ffffff;
+    text-decoration:none;
+}
+
+.div1{
+    display: flex;
+    background-size: cover;
+    width: 180vh;
+    height: 100%;
+    margin: auto;
+    background-color: black;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+
+.main{
+    background-color: black;
+    height: 550px;
+    width: auto;
+    padding: 20px;
+}
+
+.footer{
+    height: 40px;
+    width: auto;
+    background-color: #457947;
+}
+
+.redes{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 7.5px;
+}
+
+.fotos{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 100fr);
+    height: 350px;
+    width: auto;
+    justify-items: stretch;
+    align-items: center;
+    padding: 125px;
+    
+}
+
+
+.main2{
+    border: 2px;
+    background-color: black;
+    height: 720px;
+    width: auto;
+    color: white;
+       
+ 
+}
+
+.main2 div img{
+    width: 70%;
+    margin:10px;
+    justify-content:center
+}
+
+
+@media (max-width:550px){
+    .nav h1{
+        background-color: #524f4f; 
+        color: #ffffff;
+        width: 100vw;
+        border: 0px;
+        text-align: center;
+    }
+}
+@media (max-width:550px){
+    .nav ul{
+        background-color: #0d0e0d;
+        text-align: center;
+    }
+}
+@media (max-width:550px){
+    .main div{
+        background-color: #696969; 
+        padding: 45px;
+        margin: -20px;
+    }
+}
+@media (max-width:550px){
+    .footer{
+        background-color: #0d0e0d;
+        text-align: center;
+    }
+}
+
+ul:hover{
+  background-color: #696969;
+  font-size: 18px;
+  padding: 12px;
+}
+
+.inicio a:link{
+    background-color: #000000;
+}
+
+.galeria a :visited{
+    background-color: aqua;
+}
